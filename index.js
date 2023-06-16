@@ -1,42 +1,42 @@
-let month  ="august";
+let month  ="june";
 
 
 switch (month){
-  case month = "june":
+  case month = "june": case month = "august": case month = "july":
     console.log("Summer")
-     break;
-  case month = "july":
-    console.log("Summer")
-     break;
-  case month = "august":
-    console.log("Summer")
-     break;
-  case month = "sectember":
-    console.log("autumn")
-     break;
-  case month = "octomber":
-    console.log("Autumn")
-     break;
-  case month = "november":
-    console.log("Autumn")
-     break;
-  case month = "december":
-    console.log("winter")
-     break;
-  case month = "janurary":
-    console.log("winter")
-     break;
-  case month = "february":
-    console.log("winter")
-     break;
-  case month = "march":
-    console.log("spring")
-     break;
-  case month = "april":
-    console.log("spring")
-     break;
-  case month = "may":
-    console.log("Summer")
-     break;
+    break;
 
+  case month = "sectember": case month = "octomber": case month = "november":
+      console.log ("automn")
+      break;
+
+  case month = "march": case month = "april": month = "may" 
+    console.log("spring")
+    break;
+
+    default:
+    console.log ("winter")
+
+}
+
+
+
+
+
+
+let a = 236;
+let b = 235;
+let c = 232;
+
+switch(true){
+  case a > b && a > c :
+    console.log ("a")
+    break;
+
+  case b > a && b > c:
+    console.log ("b")
+    break;
+
+  default:
+    console.log ("c")
 }
